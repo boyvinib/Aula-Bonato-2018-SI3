@@ -1,0 +1,23 @@
+
+
+<!-- @Author: Estevão Alves de Lucena
+---- @RA: 816119987 -->
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Generos</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+    <ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
+    <ion-list>
+      <ion-item *ngFor="let item of items">
+        {{ item }}
+      </ion-item>
+    </ion-list>
+
+</ion-content>
