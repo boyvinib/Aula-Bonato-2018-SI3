@@ -1,0 +1,12 @@
+﻿<!--@Author: Vinicius Ferreira
+ *RA: 817127791
+-->
+
+<resources>
+    <string name="app_name">ClienteSI18</string>
+    <string name="dica_busca">nome do filme</string>
+    <string name="btn_buscar">Buscar</string>
+    <string name="detalhe_nome">Nome:</string>
+    <string name="detalhe_tipo">Tipo:</string>
+    <string name="detalhe_data">Data de lançamento:</string>
+</resources>
